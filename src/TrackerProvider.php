@@ -1,6 +1,6 @@
-
 <?php
 
+namespace JulesGraus\FaviconTracker;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,5 +14,11 @@ class TrackerProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__ . DIRECTORY_SEPARATOR . 'routes.php');
+
+        $this->publishes([
+            __DIR__. DIRECTORY_SEPARATOR .'config.php' => config_path('favicontracker.php'),
+        ], 'fit');
+
+        $this->loadViewsFrom(__DIR__.DIRECTORY_SEPARATOR.'views', 'fit');
     }
 }

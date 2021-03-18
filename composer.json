@@ -1,6 +1,6 @@
 {
-    "name": "julesgraus/favicotracker",
-    "description": "Enables tracking of users via a favico method. Even when they are incognito. For educational purposes only.",
+    "name": "julesgraus/favicontracker",
+    "description": "Enables tracking of users via a favicon tricks. Even when they are incognito. For educational purposes only.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"JulesGraus\\FavicoTracker\\": "src"}
+        "psr-4": {"JulesGraus\\FaviconTracker\\": "src"}
     },
     "require": {
         "laravel/framework": ">=7.24 <9.0"
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JulesGraus\\FavicoTracker\\TrackerProvider"
+                "JulesGraus\\FaviconTracker\\TrackerProvider"
             ]
         }
     }
