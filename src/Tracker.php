@@ -78,10 +78,8 @@ class Tracker
         //Return the view
         return response(view('fit::track', [
             'nextRoute' => $nextRoute,
-            'redirectSpeed' => intval(config('favicontracker.redirectDelay', 0))
-//            'redirectSpeed' => 2000
+            'redirectSpeed' => 300
         ]))->withHeaders([
-            "Expires" => "Fri, 01 Jan 1990 00:00:00 GMT",
             "Cache-Control" => "no-cache, must-revalidate, no-store, max-age=0, private",
         ]);
     }
