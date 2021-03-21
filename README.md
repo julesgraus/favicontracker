@@ -9,3 +9,12 @@ Even when they are incognito. For educational purposes only.
 ## Usage
 More info following soon. Project is not ready to be tested / used.
 
+## How to clear the favicon cache
+### Chrome Mac:
+Delete ```~/Library/Application Support/Google/Chrome/Default/Favicons```
+and ```~/Library/Application Support/Google/Chrome/Default/Favicons-journal```.
+Then restart chrome.
+
+### Chrome Windows
+Delete ```C:\Users\<your username>\AppData\Local\Google\Chrome\User Data\Default```.
+Then restart chrome
