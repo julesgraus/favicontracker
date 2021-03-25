@@ -45,6 +45,36 @@ These procedures where followed in order to manually verify the tracking techniq
 * Browser was closed completely and started.
 * Read procedure was started. Resulted in retrieving the plus zero id.
 
+## Verified tracking procedures:
+These procedures where followed in order to manually verify the tracking technique per browser:
+### Chrome Mac v89.0.4389.90
+* Browser was opened.
+* Read procedure was started. Resulted in tracking id of 0.
+* Browser was closed completely and started.
+* Write procedure was started. Resulted in storing a plus zero id.
+* Browser was closed completely and started.
+* Read procedure was started. Resulted in retrieving the plus zero id.
+
+### Safari Mac v4.0.3 (16610.4.3.1.7)
+* Browser was opened
+* Read procedure was started. Resulted in tracking id of 0.
+* Write procedure was started. Resulted in storing a plus zero id.
+* Read procedure was started. Resulted in retrieving the plus zero id.
+* Browser was closed completely and started.
+* Read procedure was started. Resulted in retrieving the plus zero id.
+* Write procedure was started. Resulted in storing a plus zero id.
+
+### Firefox Mac (87.0)
+* No tracking procedure seems to work.
+
+### Edge Mac (89.0.774.63)
+* Browser was opened.
+* Read procedure was started. Resulted in tracking id of 0.
+* Browser was closed completely and started.
+* Write procedure was started. Resulted in storing a plus zero id.
+* Browser was closed completely and started.
+* Read procedure was started. Resulted in retrieving the plus zero id.
+
 ## How to clear the favicon cache
 Make sure you close your browser completely first.
 
